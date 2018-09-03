@@ -1,141 +1,169 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>PORTFOLIO</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+<html lang="en">
 
-<div id="mainContainer">
-  <div class="header">
+<head>
+  <meta charset="UTF-8">
+  <title>Let's talk</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
     <h1>Let's talk</h1>
     <p>Think you have what it takes? Show us.</p>
-  </div>
+  </header>
+  <section id="1">
+    <div class="personal_information">
+      <h3>1. Personal information</h3>
+    </div>
+    <div class="form1">
+      <input type="text" class="txt_field t1" placeholder="Full name*">
+      <input type="text" class="txt_field t2" placeholder="Phone#*"><br>
+      <input type="text" class="txt_field t3" placeholder="Email*"><br>
+      <input type="text" class="txt_field t4" placeholder="Re-enter email*"><br>
 
-  <div class=""="personalInfo">
-    <h2>Personal Information</h2>
-    <svg height="2" width="1100">
-      <line x1="0" y1="0" x2="1100" y2="0" style="stroke:blue;stroke-width:6" />
-    </svg>
-    <div>
-      <input type="addtext" id="fullName" name="fname" placeholder="Full name*" size="135" color="red">
-      <input type="addtext" id="phoneNumber" name="phNumber" placeholder="Phone #*" size="42">
-    </div>
-    <div>
-      <input type="addtext" id="email" name="eml" placeholder="Email*" size="135">
-    </div>
-    <div>
-      <input type="addtext" id="emailAgain" name="emlAgain" placeholder="Re-enter email again*" size="135">
-    </div>
-    <div>
-      <input type="addtext" id="address" name="addr" placeholder="Address*" size="180">
-    </div>
-    <div>
-      <input type="addtext" id="city" name="addCity" placeholder="City*" size="42">
-      <input type="addtext" id="state" name="addState" placeholder="State" size="42">
-      <input type="addtext" id="country" name="addCountry" placeholder="Country/Region*" size="42">
-      <input type="addtext" id="post" name="postCode" placeholder="Zip/Postal code*" size="42">
-    </div>
-    <div>
-      <input type="addtext" id="about" name="aboutUs" placeholder="How did you hear about us" size="180">
-    </div>
+      <input type="text" class="txt_field t5" placeholder="Address*"><br>
+      <input type="text" class="txt_field t5" placeholder=""><br>
 
-  </div>
+      <input type="text" class="txt_field t6" placeholder="City*">
+      <input type="text" class="txt_field t7" placeholder="State">
+      <input type="text" class="txt_field t8" placeholder="Country/Region*">
+      <input type="text" class="txt_field t9" placeholder="Zip/Postal code"><br>
 
-  <div class="skillLocation">
-    <h2>Skills and Location</h2>
-    <svg height="2" width="1100">
-      <line x1="0" y1="0" x2="1100" y2="0" style="stroke:blue;stroke-width:6" />
-    </svg>
-    <div class="primaryDescipline">
-      <p>Which is your primary descipline?</p>
-      <button><type="radio" id="ritem">Design Research</button>
-      <button><type="radio" id="ritem">Visual Design</button>
-      <button><type="radio" id="ritem">UX Design</button>
-      <button><type="radio" id="ritem">Front-end Dev</button>
+      <input type="text" class="txt_field t10" placeholder="How did you hear about us">
+
     </div>
-  </div>
+  </section>
 
-  <div class="skillContainer">
-    <div class="experience">
-      <p>Do you have experience with anyother descipline?</p>
-      <label class="container">Visual Design
-        <input type="checkbox">
-        <span class="checkmark"></span>
-      </label>
-      <label class="container">UX Design
-        <input type="checkbox">
-        <span class="checkmark"></span>
-      </label>
-      <label class="container">Front-end Development
-        <input type="checkbox">
-        <span class="checkmark"></span>
-      </label>
+  <section id="2">
+    <div class="skills_and_location">
+      <h3>2. Skills and location</h3>
     </div>
 
-    <div class="interests">
-      <p>What are you interested in doing?</p>
-      <div class="notification">
-       <p>You must be legally authorized to work without visa</p>
-       <p>sponsorship in the location(s) you choose.</p>
-     </div>
-     <div class="locations">
-      <label class="container">Austin, Texas
-        <input type="checkbox">
-        <span class="checkmark"></span>
-      </label>
-      <label class="container">New York, New York
-        <input type="checkbox">
-        <span class="checkmark"></span>
-      </label>
-      <label class="container">Toronto, Canada
-        <input type="checkbox">
-        <span class="checkmark"></span>
-      </label>
-      <label class="container">Shangai, China
-        <input type="checkbox">
-        <span class="checkmark"></span>
-      </label>
-      <label class="container">Dublin, Ireland
-        <input type="checkbox">
-        <span class="checkmark"></span>
-      </label>
-      <label class="container">Hursley, United Kingdom
-        <input type="checkbox">
-        <span class="checkmark"></span>
-      </label>
-    <label class="container">Boeblingen, Germany
-      <input type="checkbox">
-      <span class="checkmark"></span>
-    </label>
-    <label class="container">Somewhere else
-      <input type="checkbox">
-      <span class="checkmark"></span>
-    </label>
-  </div>
-  </div>
+    <div class="form2">
+      <div class="top_radio">
+        <p>Which is your primary design discipline?*</p>
+        <br>
+        <div class="design">
+          <label class="container_radio" for="radio1">
+            <input type="radio" name="radio" id="radio1">
+            <span class="radio_button">Design Research</span>
+          </label>
+          <label class="container_radio" for="radio2">
+            <input type="radio" name="radio" id="radio2">
+            <span class="radio_button">Design Research</span>
+          </label>
+          <label class="container_radio" for="radio3">
+            <input type="radio" name="radio" id="radio3">
+            <span class="radio_button">UX Design</span>
+          </label>
+          <label class="container_radio" for="radio4">
+            <input type="radio" name="radio" id="radio4">
+            <span class="radio_button">Front-end Dev</span>
+          </label>
+        </div>
+        <br>
+      </div>
+      <div class="left_checkbox">
+        <p>Do you have experience with any other disciplines?</p>
+        <br>
+        <div class="checkboxes">
+          <label class="container">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+            Visual Design
+          </label>
+          <br>
+          <label class="container">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+            Ux Design
+          </label>
+          <br>
+          <label class="container">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+            Front-end Development
+          </label>
+        </div>
 
-</div>
-  <div class="portfolio">
-    <h2>Portfolio</h2>
-      <svg height="2" width="1100">
-        <line x1="0" y1="0" x2="1100" y2="0" style="stroke:blue;stroke-width:6" />
-      </svg>
-
-    <p>Prove you are IBM's next great designer by showing us who you are. What you have done. How you think. Tell us your story.</p>
-    <div>
-      <input type="addtext" id="addLink" name="portfolioLink" placeholder="Portfolio link*">
+      </div>
+      <div class="right_checkbox">
+        <p>Where are you interested in working?*</p>
+        <small>You must be legally authorized to work without vis sponsorship in the location you choose.</small>
+        <br>
+        <div class="checkboxes">
+          <label class="container">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+            Austin, Texes
+          </label>
+          <br>
+          <label class="container">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+            New York, New York
+          </label>
+          <br>
+          <label class="container">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+            Toronto, Canada
+          </label>
+          <br>
+          <label class="container">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+            Shanghai, China
+          </label>
+          <br>
+          <label class="container">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+            Dublin, Ireland
+          </label>
+          <br>
+          <label class="container">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+            Hursley, United Kingdom
+          </label>
+          <br>
+          <label class="container">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+            Boeblingen, Germany
+          </label>
+          <br>
+          <label class="container">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+            Somewhere else
+          </label>
+        </div>
+      </div>
     </div>
-    <div>
-      <textarea id="addLink" name="additionalInfo" placeholder="Anything else (add another link, availabiliy, etc)?" style="height:200px"></textarea>
+
+  </section>
+
+
+  <section id="3">
+    <br>
+    <div class="portfolio">
+      <h3>3. Portfolio</h3>
     </div>
-  </div>
+    <div class="form3">
+      <p>Prove you're IBM's next great designer by showing us who you are. What you've done. How do you think. Tell us
+        your story.</p>
+      <input type="text" class="txt_field t11" placeholder="Portfolio link*">
+      <input type="text" class="txt_box" placeholder="Anything else (another link, availability, etc.)?">
+    </div>
+  </section>
 
-  <div class="submitButton">
-    <button type="button">SUBMIT</button>
-  </div>
- </div>
+  <footer>
+    <button>Submit</button>
+  </footer>
 
- </body>
+</body>
+
 </html>
