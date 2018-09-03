@@ -1,5 +1,5 @@
 # Portfolio
 
-A form made with HTML and CSS with basic validation
+A form made with HTML and CSS 
 
 Demo: www.portfolio-ibm.surge.sh/
